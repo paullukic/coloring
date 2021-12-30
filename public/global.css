@@ -1,0 +1,137 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: #333;
+	margin: 0;
+	padding: 8px;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgb(0,80,160);
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
+
+:root{
+	--mandala1: #d4d4d4;
+	--mandala2:	#c4c4c4;
+	--mandala3: #b4b4b4;
+	--mandala4: #a4a4a4;
+	--mandala5: #9494a4;
+	--mandala6: #8484a4;
+	--mandala7: #7474a4;
+	--mandala8: #6464a4;
+}
+
+section > .mandalas {
+	max-width: 90vw;
+	width: 90vw;
+	max-height: 90vh;
+	height: 90vh;
+	justify-content: center;
+    align-items: center;
+}
+section > .mandalas > div.mandala1 > svg{
+	height: 100%;
+	max-width: 100%;
+	position: absolute;
+}
+section > .mandalas > div.mandala2 > svg{
+	height: 90%;
+	max-width: 90%;
+	position: absolute;
+	top: 5%;
+	left: 5%;
+}
+section > .mandalas > div.mandala3 > svg{
+	height: 70%;
+	max-width: 70%;
+	position: absolute;
+	top: 15%;
+	left: 15%;
+}
+section > .mandalas > div.mandala4 > svg{
+	height: 50%;
+	max-width: 50%;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+}
+section > .mandalas > div.mandala5 > svg{
+	height: 30%;
+	max-width: 30%;
+	position: absolute;
+	top: 35%;
+	left: 35%;
+}
+/* section > .mandalas > div.mandala6 > svg{
+	height: 50%;
+	max-width: 50%;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+}
+section > .mandalas > div.mandala7 > svg{
+	height: 40%;
+	max-width: 40%;
+	position: absolute;
+	top: 30%;
+	left: 30%;
+}
+section > .mandalas > div.mandala8 > svg{
+	height: 30%;
+	max-width: 30%;
+	position: absolute;
+	top: 35%;
+	left: 35%;
+} */
